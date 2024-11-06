@@ -1,0 +1,22 @@
+/* styles.css */
+.task-list {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  
+  .task-list-selected {
+    background-color: #e0f7fa;
+    color: #00796b;
+    border: 2px solid #00796b;
+  }
+  
+  .task-detail {
+    margin-top: 10px;
+    background-color: #fff3e0;
+    padding: 15px;
+    border: 1px solid #ffb74d;
+    border-radius: 5px;
+  }
+  

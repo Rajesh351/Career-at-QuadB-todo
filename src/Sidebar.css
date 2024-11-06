@@ -1,0 +1,90 @@
+.sidebar {
+  width: 20%;  /* Adjusted width for a shorter sidebar */
+  background-color:#EEF6EF;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.menu-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.menu-item .icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.menu-item:hover,
+.menu-item.active {
+  background-color: #d1e7dd;
+  border-radius: 10px;
+}
+
+.add-list {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.task-summary {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.task-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.chart-circle {
+  width: 80px;
+  height: 80px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+}

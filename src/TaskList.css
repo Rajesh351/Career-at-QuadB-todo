@@ -1,0 +1,92 @@
+.task-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-header {
+    margin-bottom: 20px;
+    background-color: #EEF6EF;
+    padding-left: 10px;
+  }
+  .raj1{
+    padding-top: 50px;
+    font-weight: 100;
+    font-size: small;
+  }
+  .raj{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .task-actions {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .add-task {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .task-list,
+  .completed-tasks {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-item.completed {
+    color: #888;
+    text-decoration: line-through;
+  }
+  .task-item.completed span{
+    margin-left: 10px;
+  }
+  .task-item .highlight {
+    color: #ffab00;
+  }
+  
+  .task-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .completed-tasks h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .task-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .add-task {
+      margin-top: 10px;
+    }
+  
+    .task-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

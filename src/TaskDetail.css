@@ -1,0 +1,38 @@
+.task-detail {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .task-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .task-detail-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .task-detail-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .delete-icon {
+    color: red;
+    cursor: pointer;
+  }
+  
